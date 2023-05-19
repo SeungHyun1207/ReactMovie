@@ -1,0 +1,33 @@
+<!--
+====== 리액트 관련 설명 ======
+001. PropTypes를 체크하고 싶다.
+>>> 터미널 > npm i prop-types > 만약 오류가 난다면 package.json에 있는지 확인
+002. Scss 적용하고 싶다.
+>>> 플러그인에서 File Watchers(파일검색) 다운로드 후 Setting > Tools > File Watchers에서 scss 추가
+003. css import하는 방법
+>>> Ex) 해당하는 쪽에 파일명.module이라는 파일명으로 만들어서
+>>> .btn이라는 클래스 이름으로 버튼의 색상을 지정할 때 css파일에다가는 그대로 색상지정을해주고,
+>>> 해당하는 .js파일에 import해준다. Ex) import styles from "./css/Button.module.css";
+004. useEffect 사용방법
+// [keyword]는 keyword가 변화할때 코드를 실행할 거라고 react에게 알려준다.
+// if문에서는 keyword의 검색이 5글자이상일때 이 코드를 실행하겠다 라고 알려준다.
+useEffect( () => {
+if( keyword !== "" & keyword.length > 5){
+console.log("나는 키워드가 5글자 이상일때 실행됩니다.", keyword);
+}
+}, [keyword]); <<< 이 키워드칸에 몇개씩 같이 변화될때 실행한다고도 할수 있다.
+Ex) [keyword,counter]
+005. useState 사용방법
+
+
+
+
+
+
+
+
+
+
+
+
+-->
